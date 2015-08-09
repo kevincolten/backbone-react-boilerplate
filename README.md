@@ -6,7 +6,6 @@
 
 `npm install`
 
-`gulp js`
+`gulp`
 
 `http-server`
-
