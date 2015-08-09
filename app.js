@@ -1,13 +1,13 @@
 'use strict';
 
 var Backbone = require('backbone');
-var PostsController = require('./controllers/PostsController');
+var SomeController = require('./controllers/SomeController');
 
 var Application = Backbone.Router.extend({
   controllers: {},
 
   initialize: function() {
-    this.controllers.posts = new PostsController({router: this});
+    this.controllers.SomeController = new SomeController({router: this});
     Backbone.history.start();
   }
 });
